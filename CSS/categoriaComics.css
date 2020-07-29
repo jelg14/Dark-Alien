@@ -1,0 +1,31 @@
+body{
+    background-color: rgba(14, 12, 12, 0.562);
+    border-image: url();
+}
+#titulo{
+    margin: -0.1cm;
+    width: 1339px;
+}
+
+.comic{
+    width: 650px; /*ancho*/
+    height:250px; /*alto*/
+    margin: 0.01cm -0.09cm;
+}
+
+img.boton{
+    width: 5cm;
+    height:5cm;
+    margin: 0.25cm;
+}
+
+img.boton:hover{
+    transform: scale(1.2);
+}
+
+footer{
+    padding: 5px 0px;
+    margin-top: -10px;
+    height: 40px;
+    background-color: red;
+}

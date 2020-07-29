@@ -1,0 +1,164 @@
+#TituloPrincial {
+    background-position: 25px 10px 15px 15px;
+    /*para posicion de objeto: arri, izq, abj, der*/
+    margin: -25px 350px 5px;
+}
+
+#telefono,
+#correo {
+    width: 20px;
+    height: 20px;
+}
+
+p {
+    font-size: 20px;
+    text-align: left;
+    margin-top: -7px;
+}
+
+h2,
+h4,
+p {
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    margin-left: 150px;
+}
+
+#categorias {
+    color: rgb(253, 0, 0);
+    background-color: rgb(31, 27, 27);
+}
+
+#encabezado {
+    background-color: black;
+    position: fixed;
+    left: 0;
+    top: 0;
+}
+
+#masVendido {
+    margin: auto;
+    width: 1080px;
+    height: 310px;
+    overflow-x: auto;
+    background-color: rgba(206, 197, 178, 0.589);
+}
+
+td,
+th {
+    text-align: center;
+    border-right: 2px solid black;
+}
+
+#logo {
+    margin-top: 22px;
+}
+
+#general {
+    padding-top: 200px;
+}
+
+#logoContenedor {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.producto {
+    width: 150px;
+    height: 250px;
+}
+
+.producto:hover {
+    transform: scale(1.1);
+    translate: all 0.3s linear;
+}
+
+footer {
+    background-color: black;
+    height: 270px;
+}
+
+
+/*DIV FOOTER*/
+
+div#SobreNosotros {
+    margin-top: -7px;
+    width: 430px;
+    height: 80px;
+}
+
+div#Contactanos {
+    width: 200px;
+    height: 80px;
+    margin-top: -95px;
+    margin-left: 850px;
+}
+
+#facebook,
+#pin,
+#twitter {
+    width: 40px;
+    height: 40px;
+}
+
+#facebook {
+    margin-right: 100px;
+}
+
+#twitter {
+    margin-left: 100px;
+}
+
+
+/* FIN DIV FOOTER*/
+
+#carrusel {
+    margin-top: 42px;
+    width: 1340px;
+    height: 850px;
+    margin-bottom: -450px;
+}
+
+
+/*BARRA DE NAVEGACION*/
+
+ul {
+    list-style-type: none;
+    background: black;
+    margin: 0%;
+    padding: 0%;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+    margin-left: -50px;
+}
+
+li a {
+    display: block;
+    color: maroon;
+    text-align: left;
+    padding: 5px 4px;
+    text-decoration: none;
+    font-family: verdana;
+    font-size: 0.5cm;
+    border-right: 1px solid;
+}
+
+li a:hover {
+    background-color: red;
+    color: white;
+    border: 3px solid black;
+    transition: all 0.3s linear;
+}
+
+body {
+    background-image: url('../Images/fondoAlienMenuPrincipal.jpg');
+    background-repeat: no-repeat;
+    margin: 0;
+}
